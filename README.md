@@ -46,3 +46,7 @@ public class LoginUser
         public string Email { get; set; }
     }
 ```
+
+## reference:
+http://afana.me/archive/2011/01/14/aspnet-mvc-internationalization.aspx/
+https://stackoverflow.com/questions/36353265/asp-net-mvc-localization-of-validation-messages
