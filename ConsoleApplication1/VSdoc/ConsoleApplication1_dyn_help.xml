@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="ConsoleApplication1" Title="ConsoleApplication1 Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.CompanyClient.AddCompany" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000006.html" LinkGroup="ConsoleApplication1">AddCompany Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Controllers.CompaniesController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_000000000000000A.html" LinkGroup="ConsoleApplication1">CompaniesController Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Models.Company" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000011.html" LinkGroup="ConsoleApplication1">Company Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.CompanyClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000001.html" LinkGroup="ConsoleApplication1">CompanyClient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.CompanyClient.CompanyClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000002.html" LinkGroup="ConsoleApplication1">CompanyClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Startup.Configuration" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000015.html" LinkGroup="ConsoleApplication1">Configuration Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000000.html" LinkGroup="ConsoleApplication1">ConsoleApplication1 Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1 Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000016.html" LinkGroup="ConsoleApplication1">ConsoleApplication1 Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Controllers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000009.html" LinkGroup="ConsoleApplication1">ConsoleApplication1.Controllers Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Models" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000010.html" LinkGroup="ConsoleApplication1">ConsoleApplication1.Models Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.CompanyClient.CreateClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000003.html" LinkGroup="ConsoleApplication1">CreateClient Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Controllers.CompaniesController.Delete" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_000000000000000F.html" LinkGroup="ConsoleApplication1">Delete Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.CompanyClient.DeleteCompany" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000008.html" LinkGroup="ConsoleApplication1">DeleteCompany Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Controllers.CompaniesController.Get" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_000000000000000B_overloads--.html" LinkGroup="ConsoleApplication1">Get Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Controllers.CompaniesController.Get" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_000000000000000C_overloads--.html" LinkGroup="ConsoleApplication1">Get Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.CompanyClient.GetCompanies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000004.html" LinkGroup="ConsoleApplication1">GetCompanies Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.CompanyClient.GetCompany" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000005.html" LinkGroup="ConsoleApplication1">GetCompany Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Models.Company.Id" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000012.html" LinkGroup="ConsoleApplication1">Id Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Models.Company.Name" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000013.html" LinkGroup="ConsoleApplication1">Name Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Controllers.CompaniesController.Post" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_000000000000000D.html" LinkGroup="ConsoleApplication1">Post Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Controllers.CompaniesController.Put" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_000000000000000E.html" LinkGroup="ConsoleApplication1">Put Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.Startup" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000014.html" LinkGroup="ConsoleApplication1">Startup Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ConsoleApplication1.CompanyClient.UpdateCompany" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ConsoleApplication1.chm::/topic_0000000000000007.html" LinkGroup="ConsoleApplication1">UpdateCompany Method</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

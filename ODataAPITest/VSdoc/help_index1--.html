@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Index</title>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<style>
+		html,body {
+			margin: 0; padding: 0px;
+			height:100%; 
+			min-height:100%;
+			background-color: rgb(233,232,220);
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			color: black;
+		}
+
+		body {font-size:75%;position:relative; margin-top:-1px; border-style: solid solid solid solid;	border-color: rgb(172,168,153);	border-width: 0px 0px 1px 0px;}
+		a { text-decoration:none; color:#06c }
+		form {padding:5px; margin:0px;}
+	</style>
+</head>
+<body style="direction: ltr;">
+	<form>
+	Look for:<br /><input style="width:100%" onKeyDown="check_input(this.value,get_match)" onKeyUp="check_input(this.value,get_match)"/>
+	</form>
+
+	<script>
+		var words = new Array(
+"ActionName Property","ActionSamples Property","ActualHttpMessageTypes Property","Addr Property","AnnotationAttribute Property","Annotations Property","Api Method","ApiDescription Property","ApiDescriptionExtensions Class","Application_Start Method","AreaName Property","BundleConfig Class","CollectionModelDescription Class","ComplexTypeModelDescription Class","ComplexTypeModelDescription Constructor","Configuration Property","ControllerName Property","Customer Class","CustomersController Class","Delete Method","DictionaryModelDescription Class","Documentation Property {ODataAPITest.Areas.HelpPage.ModelDescriptions.EnumValueDescription}","Documentation Property {ODataAPITest.Areas.HelpPage.ModelDescriptions.ModelDescription}","Documentation Property {ODataAPITest.Areas.HelpPage.ModelDescriptions.ParameterAnnotation}","Documentation Property {ODataAPITest.Areas.HelpPage.ModelDescriptions.ParameterDescription}","ElementDescription Property","EnumTypeModelDescription Class","EnumTypeModelDescription Constructor","EnumValueDescription Class","Equals Method {ODataAPITest.Areas.HelpPage.HelpPageSampleKey}","Equals Method {ODataAPITest.Areas.HelpPage.ImageSample}","Equals Method {ODataAPITest.Areas.HelpPage.InvalidSample}","Equals Method {ODataAPITest.Areas.HelpPage.TextSample}","ErrorMessage Property","ErrorMessages Property","FilterConfig Class","GenerateObject Method","GeneratedModels Property","Get  Method {ODataAPITest.Controllers.ValuesController}","Get (Int32) Method {ODataAPITest.Controllers.ValuesController}","Get Method {ODataAPITest.Controllers.CustomersController}","Get Method {ODataAPITest.Controllers.ProductsController}","GetActionSample Method","GetDocumentation (HttpActionDescriptor) Method {ODataAPITest.Areas.HelpPage.XmlDocumentationProvider}","GetDocumentation (HttpControllerDescriptor) Method {ODataAPITest.Areas.HelpPage.XmlDocumentationProvider}","GetDocumentation (HttpParameterDescriptor) Method {ODataAPITest.Areas.HelpPage.XmlDocumentationProvider}","GetDocumentation (MemberInfo) Method {ODataAPITest.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider}","GetDocumentation (MemberInfo) Method {ODataAPITest.Areas.HelpPage.XmlDocumentationProvider}","GetDocumentation (Type) Method","GetDocumentation (Type) Method {ODataAPITest.Areas.HelpPage.XmlDocumentationProvider}","GetFriendlyId Method","GetHashCode Method {ODataAPITest.Areas.HelpPage.HelpPageSampleKey}","GetHashCode Method {ODataAPITest.Areas.HelpPage.ImageSample}","GetHashCode Method {ODataAPITest.Areas.HelpPage.InvalidSample}","GetHashCode Method {ODataAPITest.Areas.HelpPage.TextSample}","GetHelpPageApiModel Method","GetHelpPageSampleGenerator Method","GetModelDescriptionGenerator Method","GetOrCreateModelDescription Method","GetResponseDocumentation Method","GetSample Method","GetSampleObject Method","GetSampleRequests Method","GetSampleResponses Method","HelpController  Constructor","HelpController (HttpConfiguration) Constructor","HelpController Class","HelpPageApiModel Class","HelpPageApiModel Constructor","HelpPageAreaRegistration Class","HelpPageConfig Class","HelpPageConfigurationExtensions Class","HelpPageSampleGenerator Class","HelpPageSampleGenerator Constructor","HelpPageSampleKey (MediaTypeHeaderValue) Constructor","HelpPageSampleKey (MediaTypeHeaderValue, SampleDirection, String, String, IEnumerable&lt;String&gt;) Constructor","HelpPageSampleKey (MediaTypeHeaderValue, Type) Constructor","HelpPageSampleKey (SampleDirection, String, String, IEnumerable&lt;String&gt;) Constructor","HelpPageSampleKey Class","HomeController Class","ID Property {ODataAPITest.Models.Customer}","ID Property {ODataAPITest.Models.Product}","IModelDocumentationProvider Interface","ImageSample Class","ImageSample Constructor","Index Method {ODataAPITest.Areas.HelpPage.Controllers.HelpController}","Index Method {ODataAPITest.Controllers.HomeController}","InvalidSample Class","InvalidSample Constructor","KeyModelDescription Property","KeyValuePairModelDescription Class","MediaType Property","ModelDescription Class","ModelDescriptionGenerator Class","ModelDescriptionGenerator Constructor","ModelNameAttribute Class","ModelNameAttribute Constructor","ModelType Property","Name Property {ODataAPITest.Areas.HelpPage.ModelDescriptions.EnumValueDescription}","Name Property {ODataAPITest.Areas.HelpPage.ModelDescriptions.ModelDescription}","Name Property {ODataAPITest.Areas.HelpPage.ModelDescriptions.ModelNameAttribute}","Name Property {ODataAPITest.Areas.HelpPage.ModelDescriptions.ParameterDescription}","Name Property {ODataAPITest.Models.Customer}","Name Property {ODataAPITest.Models.Product}","ODataAPITest Namespace","ODataAPITest Reference","ODataAPITest.Areas.HelpPage Namespace","ODataAPITest.Areas.HelpPage.Controllers Namespace","ODataAPITest.Areas.HelpPage.ModelDescriptions Namespace","ODataAPITest.Areas.HelpPage.Models Namespace","ODataAPITest.Controllers Namespace","ODataAPITest.Models Namespace","ObjectGenerator Class","ParameterAnnotation Class","ParameterDescription Class","ParameterDescription Constructor","ParameterNames Property","ParameterType Property","Post Method","Product Class","ProductsController Class","Properties Property","Put Method","Register Method {ODataAPITest.Areas.HelpPage.HelpPageConfig}","Register Method {ODataAPITest.WebApiConfig}","RegisterArea Method","RegisterBundles Method","RegisterGlobalFilters Method","RegisterRoutes Method","RequestBodyParameters Property","RequestDocumentation Property","RequestModelDescription Property","ResolveHttpRequestMessageType Method","ResolveType Method","ResourceDescription Property","ResourceModel Method","ResourceProperties Property","RouteConfig Class","SampleDirection Enumeration","SampleDirection Property","SampleObjectFactories Property","SampleObjects Property","SampleRequests Property","SampleResponses Property","SetActualRequestType (HttpConfiguration, Type, String, String) Method","SetActualRequestType (HttpConfiguration, Type, String, String, String()) Method","SetActualResponseType (HttpConfiguration, Type, String, String) Method","SetActualResponseType (HttpConfiguration, Type, String, String, String()) Method","SetDocumentationProvider Method","SetHelpPageSampleGenerator Method","SetSampleForMediaType Method","SetSampleForType Method","SetSampleObjects Method","SetSampleRequest (HttpConfiguration, Object, MediaTypeHeaderValue, String, String) Method","SetSampleRequest (HttpConfiguration, Object, MediaTypeHeaderValue, String, String, String()) Method","SetSampleResponse (HttpConfiguration, Object, MediaTypeHeaderValue, String, String) Method","SetSampleResponse (HttpConfiguration, Object, MediaTypeHeaderValue, String, String, String()) Method","SimpleTypeModelDescription Class","Src Property","Text Property","TextSample Class","TextSample Constructor","ToString Method {ODataAPITest.Areas.HelpPage.ImageSample}","ToString Method {ODataAPITest.Areas.HelpPage.InvalidSample}","ToString Method {ODataAPITest.Areas.HelpPage.TextSample}","TypeDescription Property","UriParameters Property","Value Property","ValueModelDescription Property","Values Property","ValuesController Class","WebApiApplication Class","WebApiConfig Class","WriteSampleObjectUsingFormatter Method","XmlDocumentationProvider Class","XmlDocumentationProvider Constructor"
+		);
+		
+		
+		var oldHighlight = 0;
+		var oldKey = "";
+		
+		function get_match(text) {
+		    var ltext = text.toLowerCase();
+		    for(i in words) {
+		        if(words[i].toLowerCase().indexOf(ltext) == "0") {
+		            return words[i];
+		        }
+		    }
+		    return "";
+		}
+		
+		function highlight(keyword) {
+		    if(oldHighlight) oldHighlight.className = "";
+		    var el = parent.frames['zindex'].document.getElementById("w_"+keyword);
+		    el.className="highlighted";
+		    oldHighlight = el;
+		}
+		
+		function check_input(text, matchfun) {
+		    if(text!=oldKey) {
+		        var keyword = matchfun(text);
+		        if(keyword) {       
+		            highlight(keyword);
+		            parent.frames['zindex'].document.getElementById('w_'+keyword).scrollIntoView();
+		        }
+		        oldKey = text;
+		    }
+		}
+	</script>
+</body>
+</html>
+
